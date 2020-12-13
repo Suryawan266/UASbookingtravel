@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #02fff2;
+}
+.box h2{
+  border: 0;
+  margin: auto;
+  width: 250px;
+  padding: 10px;
+  color: rgb(23, 61, 187);
+  text-transform: uppercase;
+  font-size: larger;
+}
+.logo{
+    width: 250px;
+    padding: 0;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    text-align: center;
+}
+.box h1{
+  border: 0;
+  margin: auto;
+  width: 250px;
+ 
+  color: rgb(3, 44, 180);
+  text-transform: lowercase;
+  font-size: medium;
+}
+.signin {
+  background-color:  rgb(23, 61, 187);
+  text-align: center;
+  color: #ffffff;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #334499;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0,25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{ 
+    width: 280px;
+    border-color: #2779f3;
+}
+.box input[type = "button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 5px solid #2779f3;
+    padding: 14px 40px;
+    outline: none;
+    color: aliceblue;
+    border-radius: 24px;
+    transition: 0,5s;
+    cursor: pointer;
+}
+.box input[type = "button"]:hover{
+    background: #2779f3;
+    box-shadow: 0 0 10px #2779f3, 0 0 20px #2779f3, 0 0 20px #2779f3;
+    
+}
+.submit[type = "submit"]{
+  border: 0;
+  background-color: #ffffff;
+  display: block;
+  margin: 20px auto;
+  text-align: right;
+  border: 2px solid #582ecc;
+  padding: 14px 40px;
+  outline: none;
+  color: #000000;
+  border-radius: 24px;
+  transition: 0,5s;
+  cursor: pointer;
+}
+.submit[type = "submit"]:hover{
+  background: #54f7d3;
+  box-shadow: 0 0 10px #2779f3, 0 0 20px #2779f3, 0 0 20px #2779f3;
+}
+.cancel{
+  border-color: #582ecc;
+  color: dodgerblue;
+}
+.cancel:hover {
+  background: #582ecc;
+  color: rgb(117, 204, 46);
+}
+
+.containersignin[type = "button"]{
+  text-align: center;
+  color: #000000;
+}
